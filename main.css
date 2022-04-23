@@ -1,0 +1,64 @@
+body
+{
+	margin:0;
+	background-color:#000000;
+}
+
+.container
+{
+
+	height:100vh;
+}
+
+.game 
+{
+	display:flex;
+	justify-content:center;
+}
+
+.block /*тут находятся блок для иконок и девочки*/
+{
+	width: 1020px;
+	height: 602px;
+	margin-top:50px;
+	display:flex;
+	justify-content:space-around;
+}
+
+.for_girl /*белый блок для девочки*/
+{
+	background-color:#ffffff;
+	width: 300px;
+	height: 431px;
+	position:relative;
+}
+
+.for_boy /*белый блок для мальчика*/
+{
+	background-color:#ffffff;
+	width: 300px;
+	height: 431px;
+	position:relative;
+}
+
+#pic1
+{
+	width: 300px;
+	height: 431px;
+}
+
+.text
+{
+	width: 448px;
+	height: 48px;
+	font-family: 'Russo One', sans-serif;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 48px;
+	color: #525252;
+	background: #FFFFFF;
+	border: 3px solid #525252;
+	margin:auto;
+	padding: 0 13px 0 13px;
+	margin-top:50px;
+}
